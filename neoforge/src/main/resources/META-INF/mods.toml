@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "websocket_commands"
+version = "${version}"
+displayName = "Websocket Commands"
+authors = "benjamin3033"
+description = '''
+Websocket commands Mod
+'''
+#logoFile = ""
+
+[[dependencies.websocket_commands]]
+modId = "neoforge"
+type = "required"
+versionRange = "[20.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.websocket_commands]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.20.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.websocket_commands]]
+modId = "architectury"
+type = "required"
+versionRange = "[11.1.17,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "websocket_commands.mixins.json"

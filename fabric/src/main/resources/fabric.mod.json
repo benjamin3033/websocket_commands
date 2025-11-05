@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "websocket_commands",
+  "version": "${version}",
+  "name": "Websocket Commands",
+  "description": "Websocket commands Mod",
+  "authors": [
+    "benjamin3033"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/websocket_commands/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.benjamin3033.fabric.WebsocketCommandsModFabric"
+    ],
+    "client": [
+      "io.github.benjamin3033.fabric.client.WebsocketCommandsModFabricClient"
+    ]
+  },
+  "mixins": [
+    "websocket_commands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "architectury": ">=11.1.17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

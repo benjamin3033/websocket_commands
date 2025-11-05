@@ -1,0 +1,15 @@
+/wscmessage Test
+/wscmessage "Test"
+/wscmessage {
+/wscmessage "Message"
+/wscmessage "Test"
+/wscmessage Test
+/wscmessage "Test"
+/wscmessage "Message"
+/wscmessage Message
+/wscmessage "He He"
+/wscmessage LOLOLOLOLLOOLLOLOLOOOLOLOOL
+/wscmessage Hello My Name Is Benjamin Saddler
+/wscmessage AAAAAAAAAAAAAAA
+/wscmessage Test
+/say a

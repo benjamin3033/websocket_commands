@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-22 16:15:10 +1300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2025-10-22 16:15:12 +1300"
+    },
+    "done": false
+  },
+  "DataVersion": 3700
+}
